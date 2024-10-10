@@ -82,3 +82,95 @@ header>div {
     margin-top: 17px;
     font-size: 15px;
 }
+
+.section-one {
+    margin-top: 54px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.section-one {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding-bottom: 60px;
+
+}
+
+.development-section>h1 {
+    padding-top: 60px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.development-section>p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2px;
+    opacity: 0.7;
+    text-align: center;
+
+}
+
+.Developer-row-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 45px;
+    margin: 35px 45px;
+    /* border-radius: 12px; */
+    background-color: #ffffff;
+    background-image: linear-gradient(90deg, #e1e1e1 0%, #fff 100%);
+
+
+}
+
+.coding-skill>h1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.coding-skill>p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.coding-skill>button {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 30px 12px 30px;
+
+}
+
+.Developer-row-two {
+    display: flex;
+    padding: 35px 45px;
+    margin: 35px 45px;
+    gap: 60px;
+    background-color: #e3e3e3;
+    background-image:  linear-gradient(90deg, #fff 0%, #e1e1e1 100%);
+    /* border-radius: 12px; */
+}
+.Developer-row-three{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 45px;
+    margin: 35px 45px;
+    /* border-radius: 12px; */
+    background-color: #ffffff;
+    background-image: linear-gradient(90deg, #e1e1e1 0%, #fff 100%);
+}
