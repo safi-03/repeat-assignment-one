@@ -27,6 +27,7 @@
     font-weight: 600;
     letter-spacing: 2px;
     text-align: center;
+    cursor: pointer;
 }
 
 header>nav {
@@ -71,7 +72,7 @@ header>div {
     opacity: 0.7;
 }
 
-.hero-section>button {
+.hero-section>a>button {
     border-radius: 8px;
     background: rgb(13, 19, 33);
     align-items: center;
@@ -81,6 +82,7 @@ header>div {
     font-family: Azeret Mono;
     margin-top: 17px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .section-one {
@@ -201,10 +203,12 @@ header>div {
     border-radius: 12px;
     margin-top: 40px;
 }
-.all-cart{
+
+.all-cart {
     display: flex;
     justify-content: center;
 }
+
 .cart-one {
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
@@ -308,4 +312,63 @@ header>div {
     line-height: 19px;
     text-align: left;
     text-decoration-line: underline;
+}
+
+.newsletter {
+    border-radius: 16px;
+    height: 313px;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-top: 69px;
+}
+
+.email {
+    padding: 10px 160px 10px 10px;
+    border-radius: 2px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.button {
+    border-radius: 2px;
+    padding: 7px 30px ;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: node;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0px;
+    text-align: center;
+}
+.footer>h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+}
+.github{
+    padding: 0px 10px;
 }
